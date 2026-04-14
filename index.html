@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>עידו פפר | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-logo" id="nav-logo">עידו <span>פפר</span></div>
+    <div class="nav-right">
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#projects">פרויקטים</a></li>
+        <li><a href="#about">אודות</a></li>
+        <li><a href="#contact">צור קשר</a></li>
+      </ul>
+      <div class="lang-toggle">
+        <button class="lang-btn active" id="btn-he" onclick="setLang('he')">עב</button>
+        <button class="lang-btn"        id="btn-en" onclick="setLang('en')">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-glow hero-glow-1"></div>
+    <div class="hero-glow hero-glow-2"></div>
+    <div class="hero-inner">
+      <div class="hero-avatar">
+        <!-- להחליף ב: <img src="photo.jpg" alt="עידו פפר"> -->
+        IF
+      </div>
+      <div class="hero-content">
+        <div class="hero-eyebrow" id="hero-eyebrow">היי, אני</div>
+        <h1 class="hero-name"><strong>עידו פפר</strong></h1>
+        <div class="hero-role" id="hero-role">
+          מפתח Full Stack<span></span>תל אביב, ישראל
+        </div>
+        <p class="hero-bio" id="hero-bio">
+          מפתח פולסטאק עם למידה עצמית גבוהה וחשיבה יצירתית. ניסיון בפיתוח צד לקוח ושרת — React, Node.js, MongoDB ו-REST APIs. מחפש לצמוח מקצועית ולבנות מוצרים משמעותיים.
+        </p>
+        <div class="hero-actions">
+          <a href="mailto:idoppr1@gmail.com" class="btn btn-primary" id="btn-contact">צור קשר</a>
+          <a href="https://github.com/IdoFeffer" target="_blank" class="btn btn-outline">GitHub ↗</a>
+          <a href="cv_he.pdf" download class="btn btn-cv" id="btn-cv">⬇ הורד קו״ח</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <section class="skills-section">
+    <div class="section-inner">
+      <div class="section-label" id="lbl-skills">יכולות</div>
+      <div class="skills-grid">
+        <div class="skill-pill">React</div>
+        <div class="skill-pill">JavaScript</div>
+        <div class="skill-pill">Node.js</div>
+        <div class="skill-pill">MongoDB</div>
+        <div class="skill-pill">HTML / CSS</div>
+        <div class="skill-pill">SCSS</div>
+        <div class="skill-pill">Redux</div>
+        <div class="skill-pill">REST APIs</div>
+        <div class="skill-pill">WebSockets</div>
+        <div class="skill-pill">Express</div>
+        <div class="skill-pill">Git</div>
+        <div class="skill-pill">Vite</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-label" id="lbl-projects">פרויקטים</div>
+      <div class="projects-grid">
+
+        <!-- Rarebnb -->
+        <div class="proj-card">
+          <div class="proj-thumb thumb-rarebnb">
+            <div class="thumb-ring thumb-ring-1"></div>
+            <div class="thumb-ring thumb-ring-2"></div>
+            <div>
+              <div class="thumb-label">Rarebnb</div>
+              <div class="thumb-sub">Full Stack · Team Project</div>
+            </div>
+          </div>
+          <div class="proj-body">
+            <div class="proj-name">Rarebnb</div>
+            <div class="proj-desc" id="proj1-desc">שיכפול Airbnb — פרויקט גמר Full Stack בצוות. לקחתי חלק בעיצוב ופיתוח הפרונטאנד.</div>
+            <div class="proj-tags">
+              <span class="tag tag-blue">React</span>
+              <span class="tag tag-teal">MongoDB</span>
+              <span class="tag tag-purple">Node.js</span>
+            </div>
+            <div class="proj-links">
+              <a href="https://rarebnb-pvke.onrender.com/" target="_blank" class="proj-link proj-link-primary">Demo ↗</a>
+              <a href="https://github.com/IdoFeffer" target="_blank" class="proj-link proj-link-ghost">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Placeholder 2 -->
+        <a class="proj-add" href="#">
+          <div class="proj-add-icon">+</div>
+          <div class="proj-add-label" id="add-lbl-1">פרויקט נוסף בקרוב</div>
+        </a>
+
+        <!-- Placeholder 3 -->
+        <a class="proj-add" href="#">
+          <div class="proj-add-icon">+</div>
+          <div class="proj-add-label" id="add-lbl-2">פרויקט נוסף בקרוב</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about-section">
+    <div class="section-inner">
+      <div class="section-label" id="lbl-about">אודות</div>
+      <div class="about-grid">
+        <div class="about-text" id="about-text">
+          <p>מפתח Full Stack שסיים בוטקאמפ אינטנסיבי ב-<strong>Coding Academy</strong> <br>למדתי לבנות אפליקציות ווב מהיסוד ועד הפריסה, עם דגש על פרונטאנד וחוויית משתמש.</p>
+          <p>עבדתי בצוות על פרויקטים אמיתיים, כולל <strong>
+            Rarebnb</strong> — שם לקחתי חלק בעיצוב ופיתוח הפרונטאנד.</p>
+          <p>שירתתי כ<strong>מפקד צוות בגבעתי</strong> — ניסיון שלימד אותי מנהיגות, אחריות, ועבודת צוות תחת לחץ.</p>
+        </div>
+        <div class="stats-col">
+          <div class="stat-card">
+            <div class="stat-icon">⚡</div>
+            <div class="stat-info">
+              <div class="stat-val">Full Stack</div>
+              <div class="stat-lbl" id="stat-lbl-1">פרונט + באקאנד</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">📍</div>
+            <div class="stat-info">
+              <div class="stat-val" id="stat-location">תל אביב, ישראל</div>
+              <div class="stat-lbl" id="stat-lbl-2">מיקום</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">🌐</div>
+            <div class="stat-info">
+              <div class="stat-val">עברית + English</div>
+              <div class="stat-lbl" id="stat-lbl-3">שפות</div>
+            </div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-icon">✅</div>
+            <div class="stat-info">
+              <div class="stat-val" id="stat-avail">זמין מיידי</div>
+              <div class="stat-lbl" id="stat-lbl-4">זמינות</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <div class="section-inner">
+      <div class="section-label" id="lbl-contact">צור קשר</div>
+      <div class="contact-header">
+        <h2 class="contact-title" id="contact-title">בוא <strong>נדבר</strong></h2>
+        <p class="contact-sub">
+          <span class="avail-dot"></span>
+          <span id="contact-sub">פתוח להזדמנויות עבודה — זמין להתחיל מיידי</span>
+        </p>
+      </div>
+      <div class="contact-chips">
+        <a href="mailto:idoppr1@gmail.com" class="contact-chip">
+          <span class="contact-chip-icon">✉</span> idoppr1@gmail.com
+        </a>
+        <a href="tel:0509724798" class="contact-chip">
+          <span class="contact-chip-icon">📞</span> 050-972-4798
+        </a>
+        <a href="https://www.linkedin.com/in/ido-feffer-407a06325/" target="_blank" class="contact-chip">
+          <span class="contact-chip-icon">💼</span> LinkedIn ↗
+        </a>
+        <a href="https://github.com/IdoFeffer" target="_blank" class="contact-chip">
+          <span class="contact-chip-icon">⌨</span> GitHub ↗
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer-text">
+    עידו פפר · Full Stack Developer · 2025
+  </footer>
+
+  <script>
+    var currentLang = 'he';
+
+    var translations = {
+      he: {
+        htmlDir: 'rtl', htmlLang: 'he',
+        navLogo: 'עידו <span style="color:var(--teal-light)">פפר</span>',
+        navLinks: ['פרויקטים', 'אודות', 'צור קשר'],
+        heroEyebrow: 'היי, אני',
+        heroRole: 'מפתח Full Stack<span style="display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--teal);margin:0 8px;vertical-align:middle;"></span>תל אביב, ישראל',
+        heroBio: 'מפתח פולסטאק עם למידה עצמית גבוהה וחשיבה יצירתית. ניסיון בפיתוח צד לקוח ושרת — React, Node.js, MongoDB ו-REST APIs. מחפש לצמוח מקצועית ולבנות מוצרים משמעותיים.',
+        btnContact: 'צור קשר',
+        btnCv: '⬇ הורד קו״ח',
+        cvFile: 'cv_he.pdf',
+        lblSkills: 'יכולות',
+        lblProjects: 'פרויקטים',
+        proj1Desc: 'שיכפול Airbnb — פרויקט גמר Full Stack בצוות. לקחתי חלק בעיצוב ופיתוח הפרונטאנד.',
+        addLbl1: 'פרויקט נוסף בקרוב',
+        addLbl2: 'פרויקט נוסף בקרוב',
+        lblAbout: 'אודות',
+        aboutText: '<p>מפתח Full Stack שסיים בוטקאמפ אינטנסיבי ב-<strong>Coding Academic</strong>. למדתי לבנות אפליקציות ווב מהיסוד ועד הפריסה, עם דגש על פרונטאנד וחוויית משתמש.</p><p>עבדתי בצוות על פרויקטים אמיתיים, כולל <strong>Rarebnb</strong> — שם לקחתי חלק בעיצוב ופיתוח הפרונטאנד.</p><p>שירתי כ<strong>מפקד צוות בגבעתי</strong> — ניסיון שלימד אותי מנהיגות, אחריות, ועבודת צוות תחת לחץ.</p>',
+        statLbl1: 'פרונט + באקאנד', statLbl2: 'מיקום', statLocation: 'תל אביב, ישראל',
+        statLbl3: 'שפות', statAvail: 'זמין מיידי', statLbl4: 'זמינות',
+        lblContact: 'צור קשר',
+        contactTitle: 'בוא <strong>נדבר</strong>',
+        contactSub: 'פתוח להזדמנויות עבודה — זמין להתחיל מיידי',
+        footer: 'עידו פפר · Full Stack Developer · 2025'
+      },
+      en: {
+        htmlDir: 'ltr', htmlLang: 'en',
+        navLogo: 'Ido <span style="color:var(--teal-light)">Feffer</span>',
+        navLinks: ['Projects', 'About', 'Contact'],
+        heroEyebrow: "Hi, I'm",
+        heroRole: 'Full Stack Developer<span style="display:inline-block;width:4px;height:4px;border-radius:50%;background:var(--teal);margin:0 8px;vertical-align:middle;"></span>Tel Aviv, Israel',
+        heroBio: 'Fullstack developer with strong self-learning skills and creative thinking. Experienced in frontend and backend development — React, Node.js, MongoDB, and REST APIs. Looking to grow professionally and build meaningful products.',
+        btnContact: 'Contact Me',
+        btnCv: '⬇ Download CV',
+        cvFile: 'cv_en.pdf',
+        lblSkills: 'Skills',
+        lblProjects: 'Projects',
+        proj1Desc: 'Airbnb clone — Full Stack team graduation project. I contributed to frontend design and development.',
+        addLbl1: 'More coming soon',
+        addLbl2: 'More coming soon',
+        lblAbout: 'About',
+        aboutText: '<p>Full Stack developer who completed an intensive bootcamp at <strong>Coding Academic</strong>. I learned to build web applications end-to-end, with a focus on frontend development and UX.</p><p>Worked in a team on real-world projects, including <strong>Rarebnb</strong> — where I contributed to frontend design and implementation.</p><p>Former <strong>Team Commander in Givati Brigade</strong> — an experience that taught me leadership, responsibility, and teamwork under pressure.</p>',
+        statLbl1: 'Front + Backend', statLbl2: 'Location', statLocation: 'Tel Aviv, Israel',
+        statLbl3: 'Languages', statAvail: 'Available now', statLbl4: 'Availability',
+        lblContact: 'Contact',
+        contactTitle: "Let's <strong>talk</strong>",
+        contactSub: 'Open to job opportunities — available to start immediately',
+        footer: 'Ido Feffer · Full Stack Developer · 2025'
+      }
+    };
+
+    function setLang(lang) {
+      currentLang = lang;
+      var t = translations[lang];
+      document.documentElement.setAttribute('dir', t.htmlDir);
+      document.documentElement.setAttribute('lang', t.htmlLang);
+
+      document.getElementById('nav-logo').innerHTML = t.navLogo;
+      var navAs = document.querySelectorAll('#nav-links a');
+      t.navLinks.forEach(function(txt, i) { if (navAs[i]) navAs[i].textContent = txt; });
+
+      document.getElementById('hero-eyebrow').textContent = t.heroEyebrow;
+      document.getElementById('hero-role').innerHTML = t.heroRole;
+      document.getElementById('hero-bio').textContent = t.heroBio;
+      document.getElementById('btn-contact').textContent = t.btnContact;
+
+      var cvBtn = document.getElementById('btn-cv');
+      cvBtn.textContent = t.btnCv;
+      cvBtn.href = t.cvFile;
+
+      document.getElementById('lbl-skills').childNodes[0].textContent = t.lblSkills;
+      document.getElementById('lbl-projects').childNodes[0].textContent = t.lblProjects;
+      document.getElementById('proj1-desc').textContent = t.proj1Desc;
+      document.getElementById('add-lbl-1').textContent = t.addLbl1;
+      document.getElementById('add-lbl-2').textContent = t.addLbl2;
+
+      document.getElementById('lbl-about').childNodes[0].textContent = t.lblAbout;
+      document.getElementById('about-text').innerHTML = t.aboutText;
+      document.getElementById('stat-lbl-1').textContent = t.statLbl1;
+      document.getElementById('stat-lbl-2').textContent = t.statLbl2;
+      document.getElementById('stat-location').textContent = t.statLocation;
+      document.getElementById('stat-lbl-3').textContent = t.statLbl3;
+      document.getElementById('stat-avail').textContent = t.statAvail;
+      document.getElementById('stat-lbl-4').textContent = t.statLbl4;
+
+      document.getElementById('lbl-contact').childNodes[0].textContent = t.lblContact;
+      document.getElementById('contact-title').innerHTML = t.contactTitle;
+      document.getElementById('contact-sub').textContent = t.contactSub;
+      document.getElementById('footer-text').textContent = t.footer;
+
+      document.getElementById('btn-he').classList.toggle('active', lang === 'he');
+      document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    }
+  </script>
+</body>
+</html>
