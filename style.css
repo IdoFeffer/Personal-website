@@ -141,7 +141,7 @@ body::before {
 }
 .hero-avatar img { width: 100%; height: 100%; object-fit: cover; border-radius: 50%; }
 .hero-eyebrow {
-  font-size: 12px;
+  font-size: 1.5em;
   font-family: 'Outfit', sans-serif;
   color: var(--jasmine);
   letter-spacing: 0.1em;
@@ -222,7 +222,7 @@ body::before {
 section { position: relative; z-index: 1; min-height: 100vh; display: flex; align-items: center; }
 .section-inner { max-width: 900px; margin: 0 auto; padding: 4rem 2.5rem; width: 100%; }
 .section-label {
-  font-size: 11px;
+  font-size: 3em;
   font-family: 'Outfit', sans-serif;
   color: var(--jasmine);
   letter-spacing: 0.12em;
