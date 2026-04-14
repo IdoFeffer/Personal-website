@@ -45,7 +45,8 @@ body::before {
   top: 0;
   z-index: 100;
   display: flex;
-  justify-content: space-between;
+  gap: 70em;
+  justify-content: center;
   align-items: center;
   padding: 0 2.5rem;
   height: 60px;
@@ -124,7 +125,7 @@ body::before {
   margin: 0 auto;
 }
 .hero-avatar {
-  width: 100px; height: 100px;
+  width: 10em; height: 10em;
   border-radius: 50%;
   border: 2px solid rgba(42,157,143,0.5);
   flex-shrink: 0;
