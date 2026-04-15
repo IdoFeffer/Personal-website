@@ -45,7 +45,7 @@ body::before {
   top: 0;
   z-index: 100;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 0 2.5rem;
   height: 60px;
@@ -53,7 +53,6 @@ body::before {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom: 1px solid var(--border);
-  gap: 60em;
 }
 .nav-logo {
   font-size: 15px;
@@ -107,11 +106,13 @@ body::before {
   width: 500px; height: 500px;
   background: rgba(231,111,81,0.15);
   top: -150px; right: -100px;
+  max-width: 80vw; max-height: 80vw;
 }
 .hero-glow-2 {
   width: 350px; height: 350px;
   background: rgba(42,157,143,0.12);
   bottom: -100px; left: 10%;
+  max-width: 60vw; max-height: 60vw;
 }
 .hero-inner {
   position: relative;
@@ -125,7 +126,7 @@ body::before {
   margin: 0 auto;
 }
 .hero-avatar {
-  width: 10em; height: 10em;
+  width: 100px; height: 100px;
   border-radius: 50%;
   border: 2px solid rgba(42,157,143,0.5);
   flex-shrink: 0;
@@ -265,11 +266,11 @@ section { position: relative; z-index: 1; min-height: 100vh; display: flex; alig
   text-align: center;
   min-width: 80px;
 }
-.skill-pill img { height: 100px; }
 .skill-pill:hover { border-color: rgba(42,157,143,0.55); color: #fff; transform: translateY(-2px); }
 .logo-pill {
-  width: 36px;
-  height: 36px;
+  width: auto;
+  height: 48px;
+  max-width: 60px;
   object-fit: contain;
   transition: transform 0.2s;
 }
@@ -403,3 +404,4 @@ footer {
 /* ── RTL/LTR ──────────────────────────────────────────── */
 html[dir="ltr"] .section-label::after { max-width: 160px; }
 html[dir="rtl"] .nav-right { flex-direction: row-reverse; }
+
