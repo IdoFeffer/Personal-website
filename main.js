@@ -44,7 +44,7 @@ var translations = {
     heroBio: 'Fullstack developer with strong self-learning skills and creative thinking.<br>Experienced in frontend and backend development — React, Node.js, MongoDB, and REST APIs.<br>Looking to grow professionally and build meaningful products.',
     btnContact: 'Contact Me',
     btnCv: '⬇ Download CV',
-    cvFile: 'cv_en.pdf',
+    cvFile: 'assets/pdf/Ido Feffer - CV en.pdf',
     lblSkills: 'Skills',
     lblProjects: 'Projects',
     proj1Desc: 'Airbnb clone — Full Stack team graduation project. I contributed to frontend design and development.',
